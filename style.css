@@ -1,0 +1,58 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+  }
+  .basket-images img{
+   margin-left: 5%;
+   width: 90%;
+   /* margin-bottom: 5%; */
+  }
+  h1{
+    text-align: center;
+    color: darkgreen;
+   font-size: 60px;
+  }
+  .paragraph p{
+   padding-left: 5%;
+   margin-top: 15%;
+   /* font-size: 15px; */
+   margin-left: 30px;
+  }
+  .about-us{
+    margin-top: 55%;
+  }
+  @media only screen and (max-width: 768px){
+    .about-us {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 230%;
+    }
+    .about {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .basket-images {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .basket {
+      width: 100%;
+      max-width: 500px;
+      /* height: auto; */
+    }
+    }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
